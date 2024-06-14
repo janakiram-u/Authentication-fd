@@ -1,0 +1,101 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@example.com",
+      "phoneNumber": "1234567890",
+      "password": "password123"
+    },
+    {
+      "id": "7c6f",
+      "firstName": "janakiram",
+      "lastName": "u",
+      "email": "janakiram@gmail.com",
+      "phoneNumber": "7661839161",
+      "password": "123456"
+    },
+    {
+      "id": "d44b",
+      "firstName": "madhu",
+      "lastName": "u",
+      "email": "madhu@gmail.com",
+      "phoneNumber": "7569048290",
+      "password": "12345",
+      "confirmPassword": "12345"
+    },
+    {
+      "id": "8692",
+      "firstName": "madhu",
+      "lastName": "u",
+      "email": "madhu@gmail.com",
+      "phoneNumber": "7569048290",
+      "password": "12345",
+      "confirmPassword": "12345"
+    },
+    {
+      "id": "95e7",
+      "firstName": "U",
+      "lastName": "Janakiram",
+      "email": "janakiraam@gmail.com",
+      "phoneNumber": "7661839162",
+      "password": "1234",
+      "confirmPassword": "12345"
+    },
+    {
+      "id": "9156",
+      "firstName": "U",
+      "lastName": "Janakiram",
+      "email": "janakiraam@gmail.com",
+      "phoneNumber": "7661839162",
+      "password": "12345",
+      "confirmPassword": "12345"
+    },
+    {
+      "id": "358d",
+      "firstName": "Udayagiri",
+      "lastName": "Janakiram",
+      "email": "ram@gamil.com",
+      "phoneNumber": "7561839161",
+      "password": "1234",
+      "confirmPassword": "1234"
+    },
+    {
+      "id": "1009",
+      "firstName": "Udayagiri",
+      "lastName": "Janakiram",
+      "email": "janakiramm@gmail.com",
+      "phoneNumber": "7661839166",
+      "password": "12345",
+      "confirmPassword": "12345"
+    },
+    {
+      "id": "b1d3",
+      "firstName": "janakiram",
+      "lastName": "u",
+      "email": "jr@gmail.com",
+      "phoneNumber": "7691839162",
+      "password": "1234",
+      "confirmPassword": "1234"
+    },
+    {
+      "id": "06ef",
+      "firstName": "Udayagiri",
+      "lastName": "Janakiram",
+      "email": "jrr@gmail.com",
+      "phoneNumber": "07661839161",
+      "password": "1234",
+      "confirmPassword": "1234"
+    },
+    {
+      "id": "8d7f",
+      "firstName": "kumar",
+      "lastName": "k",
+      "email": "kumar@gmail.com",
+      "phoneNumber": "7661829261",
+      "password": "12345",
+      "confirmPassword": "1234"
+    }
+  ]
+}
