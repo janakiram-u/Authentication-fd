@@ -33,8 +33,8 @@ const Banner = () => {
           position: 'absolute',
           top: 0,
           left: 0,
-          width: '100vw',
-          height: '100vh',
+          width: '100%',
+          height: '100%',
           backgroundColor: 'rgba(0, 0, 0, 0.5)',
           zIndex: 1,
         },
@@ -120,7 +120,8 @@ const Banner = () => {
           }
         },
         endAdornment: (
-          <InputAdornment position="end">
+          <InputAdornment position="end"
+          sx={{width:5}}>
             <LocationOnIcon
               sx={{
                 fontSize: { xs: '0.9rem', md: '1.2rem' },
@@ -169,7 +170,7 @@ const Banner = () => {
             <Grid item key={index} xs={6} sm={4} md={2}>
               <Paper
                 sx={{
-                  padding: (theme) => theme.spacing(2, 0.5),
+                  padding: (theme) => theme.spacing(2, 0.45),
                   borderRadius: 2,
                   cursor: 'pointer',
                   textAlign: 'center',
@@ -187,7 +188,7 @@ const Banner = () => {
                 }}
               >
                 {category.icon}
-                <Typography variant="subtitle1" sx={{ fontWeight: 'bold', margin: {xs:0.5,md:1}, fontSize: { xs: '0.8rem', md: '1rem' } }}>{category.label}</Typography>
+                <Typography variant="subtitle1" sx={{ fontWeight: 'bold', margin: {xs:0.5,md:0.8}, fontSize: { xs: '0.8rem', md: '1rem' } }}>{category.label}</Typography>
                 {category.description && <Typography variant="body2" sx={{ fontSize: { xs: '0.6rem', md: '0.8rem' } }}>{category.description}</Typography>}
               </Paper>
             </Grid>
