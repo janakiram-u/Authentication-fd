@@ -19,7 +19,7 @@ const Banner = () => {
       maxWidth="xl"
       sx={{
         position: 'relative',
-        height: '100vh',
+        minHeight: '100vh',
         display: 'grid',
         alignItems: 'center',
         justifyItems: 'center',
@@ -30,11 +30,11 @@ const Banner = () => {
         overflow: 'auto',
         '&::before': {
           content: '""',
-          position: 'fixed',
+          position: 'absolute',
           top: 0,
           left: 0,
-          width: '100%',
-          height: '100%',
+          width: '100vw',
+          height: '100vh',
           backgroundColor: 'rgba(0, 0, 0, 0.5)',
           zIndex: 1,
         },
@@ -96,7 +96,7 @@ const Banner = () => {
             sx={{
               '& .MuiOutlinedInput-root': {
                 '& fieldset': {
-                  border: 'none', // Remove border for mobile view
+                  border: 'none', 
                 },
               },
             }}
@@ -133,7 +133,7 @@ const Banner = () => {
       sx={{
         '& .MuiOutlinedInput-root': {
           '& fieldset': {
-            border: 'none', // Remove border for mobile view
+            border: 'none', 
           },
         },
       }}
